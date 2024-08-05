@@ -1,16 +1,17 @@
 package com.ing.stackmanagement.model;
 
-import com.ing.stackmanagement.model.entity.StockEntity;
+import lombok.Builder;
 import lombok.Data;
 
-import java.util.Set;
+import java.util.List;
 
 @Data
+@Builder
 public class StockExchange {
 
     private Long id;
     private String name;
     private String description;
-    private Set<Stock> includedStocks;
+    private List<Stock> includedStocks;
     private Boolean liveInMarket;
 }

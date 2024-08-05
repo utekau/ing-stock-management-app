@@ -1,5 +1,6 @@
 package com.ing.stackmanagement.model.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigDecimal;
