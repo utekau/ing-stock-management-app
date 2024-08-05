@@ -1,4 +1,4 @@
-package com.ing.stackmanagement.model.api;
+package com.ing.stackmanagement.model.api.request;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;

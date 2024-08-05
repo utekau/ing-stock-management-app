@@ -2,8 +2,8 @@ package com.ing.stackmanagement.controller;
 
 import com.ing.stackmanagement.mapper.StockMapper;
 import com.ing.stackmanagement.model.Stock;
-import com.ing.stackmanagement.model.api.StockCreate;
-import com.ing.stackmanagement.model.api.StockUpdate;
+import com.ing.stackmanagement.model.api.request.StockCreate;
+import com.ing.stackmanagement.model.api.request.StockUpdate;
 import com.ing.stackmanagement.model.dto.StockDTO;
 import com.ing.stackmanagement.service.StockService;
 import jakarta.validation.Valid;

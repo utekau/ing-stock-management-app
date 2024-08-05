@@ -1,7 +1,7 @@
 package com.ing.stackmanagement.mapper;
 
 import com.ing.stackmanagement.model.Stock;
-import com.ing.stackmanagement.model.api.StockCreate;
+import com.ing.stackmanagement.model.api.request.StockCreate;
 import com.ing.stackmanagement.model.dto.StockDTO;
 import com.ing.stackmanagement.model.entity.StockEntity;
 import org.mapstruct.Mapper;
